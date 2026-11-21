@@ -48,7 +48,7 @@ h1,
 h2,
 h3,
 p {
-  margin: 0 0 16px;
+  margin: 0 0 1rem;
 }
 
 h1,
@@ -332,7 +332,7 @@ a:focus-visible {
 }
 
 /* Tablet layout */
-@media (max-width: 800px) {
+@media (max-width: 50rem) {
   .hero {
     min-height: auto;
     padding-top: 123px;
@@ -500,7 +500,7 @@ a:focus-visible {
   *,
   *::before,
   *::after {
-    scroll-behavior: auto !important;
+    scroll-behavior: auto ;
     transition-duration: 0.01ms !important;
   }
 }
